@@ -1,0 +1,42 @@
+{
+  "name": "clean-architecture-template",
+  "version": "1.0.0",
+  "description": "clean architecture template node js",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anderalarcon/clean-architecture-template.git"
+  },
+  "author": "Anderson Achata Alarcon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anderalarcon/clean-architecture-template/issues"
+  },
+  "homepage": "https://github.com/anderalarcon/clean-architecture-template#readme",
+  "dependencies": {
+    "@google-cloud/firestore": "^7.11.0",
+    "@google-cloud/functions-framework": "^3.3.0",
+    "@google-cloud/pubsub": "^4.3.2",
+    "@google-cloud/scheduler": "^4.0.1",
+    "@google-cloud/storage": "^7.7.0",
+    "@google-cloud/text-to-speech": "^5.7.0",
+    "@google/generative-ai": "^0.21.0",
+    "@google-cloud/bigquery": "^7.9.1",
+    "axios": "^1.7.2",
+    "dotenv": "^16.6.1",
+    "@fastify/cors": "^11.2.0",
+    "@fastify/swagger": "^9.6.1",
+    "@fastify/swagger-ui": "^5.2.3",
+    "fastify": "^5.6.2"
+  },
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "lint-staged": "^15.2.0",
+    "nodemon": "^3.0.2",
+    "prettier": "^3.1.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1"
+  }
+}
